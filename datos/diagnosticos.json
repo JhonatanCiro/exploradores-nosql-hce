@@ -1,0 +1,42 @@
+[
+  {
+    "_id": "I10",
+    "descripcion": "Hipertension esencial",
+    "capitulo": "Enfermedades del sistema circulatorio"
+  },
+  {
+    "_id": "E11",
+    "descripcion": "Diabetes mellitus tipo 2",
+    "capitulo": "Enfermedades endocrinas y metabolicas"
+  },
+  {
+    "_id": "J18",
+    "descripcion": "Neumonia, organismo no especificado",
+    "capitulo": "Enfermedades del sistema respiratorio"
+  },
+  {
+    "_id": "A09",
+    "descripcion": "Gastroenteritis infecciosa",
+    "capitulo": "Enfermedades infecciosas"
+  },
+  {
+    "_id": "N39",
+    "descripcion": "Infeccion de vias urinarias",
+    "capitulo": "Enfermedades del sistema genitourinario"
+  },
+  {
+    "_id": "I50",
+    "descripcion": "Insuficiencia cardiaca",
+    "capitulo": "Enfermedades del sistema circulatorio"
+  },
+  {
+    "_id": "J44",
+    "descripcion": "Enfermedad pulmonar obstructiva cronica",
+    "capitulo": "Enfermedades del sistema respiratorio"
+  },
+  {
+    "_id": "K35",
+    "descripcion": "Apendicitis aguda",
+    "capitulo": "Enfermedades del sistema digestivo"
+  }
+]

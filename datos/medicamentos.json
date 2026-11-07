@@ -1,0 +1,86 @@
+[
+  {
+    "_id": "MED01",
+    "nombre": "Enalapril",
+    "via": "oral",
+    "clase": "Antihipertensivo"
+  },
+  {
+    "_id": "MED02",
+    "nombre": "Amlodipino",
+    "via": "oral",
+    "clase": "Antihipertensivo"
+  },
+  {
+    "_id": "MED03",
+    "nombre": "Metformina",
+    "via": "oral",
+    "clase": "Antidiabetico"
+  },
+  {
+    "_id": "MED04",
+    "nombre": "Insulina NPH",
+    "via": "subcutanea",
+    "clase": "Antidiabetico"
+  },
+  {
+    "_id": "MED05",
+    "nombre": "Ceftriaxona",
+    "via": "intravenosa",
+    "clase": "Antibiotico"
+  },
+  {
+    "_id": "MED06",
+    "nombre": "Azitromicina",
+    "via": "oral",
+    "clase": "Antibiotico"
+  },
+  {
+    "_id": "MED07",
+    "nombre": "Ondansetron",
+    "via": "intravenosa",
+    "clase": "Antiemetico"
+  },
+  {
+    "_id": "MED08",
+    "nombre": "Solucion salina 0.9%",
+    "via": "intravenosa",
+    "clase": "Hidratacion"
+  },
+  {
+    "_id": "MED09",
+    "nombre": "Ciprofloxacino",
+    "via": "oral",
+    "clase": "Antibiotico"
+  },
+  {
+    "_id": "MED10",
+    "nombre": "Furosemida",
+    "via": "intravenosa",
+    "clase": "Diuretico"
+  },
+  {
+    "_id": "MED11",
+    "nombre": "Salbutamol",
+    "via": "inhalada",
+    "clase": "Broncodilatador"
+  },
+  {
+    "_id": "MED12",
+    "nombre": "Prednisona",
+    "via": "oral",
+    "clase": "Corticoide"
+  },
+  {
+    "_id": "MED13",
+    "nombre": "Metronidazol",
+    "via": "intravenosa",
+    "clase": "Antibiotico"
+  },
+  {
+    "_id": "MED14",
+    "nombre": "Dipirona",
+    "via": "intravenosa",
+    "clase": "Analgesico"
+  }
+]

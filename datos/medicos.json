@@ -1,0 +1,38 @@
+[
+  {
+    "_id": "M001",
+    "nombre": "Dr(a). Salazar",
+    "especialidad": "Medicina interna",
+    "registro_medico": "RM-50131"
+  },
+  {
+    "_id": "M002",
+    "nombre": "Dr(a). Duque",
+    "especialidad": "Medicina interna",
+    "registro_medico": "RM-50262"
+  },
+  {
+    "_id": "M003",
+    "nombre": "Dr(a). Pineda",
+    "especialidad": "Neumologia",
+    "registro_medico": "RM-50393"
+  },
+  {
+    "_id": "M004",
+    "nombre": "Dr(a). Bedoya",
+    "especialidad": "Cardiologia",
+    "registro_medico": "RM-50524"
+  },
+  {
+    "_id": "M005",
+    "nombre": "Dr(a). Escobar",
+    "especialidad": "Cirugia general",
+    "registro_medico": "RM-50655"
+  },
+  {
+    "_id": "M006",
+    "nombre": "Dr(a). Montoya",
+    "especialidad": "Pediatria",
+    "registro_medico": "RM-50786"
+  }
+]

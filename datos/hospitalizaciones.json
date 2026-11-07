@@ -1,0 +1,977 @@
+[
+  {
+    "_id": "H001",
+    "paciente_id": "P001",
+    "medico_id": "M004",
+    "cama_id": "C109",
+    "fecha_ingreso": "2026-10-20T13:00:00",
+    "fecha_egreso": "2026-10-24T13:00:00",
+    "estado": "egresada",
+    "diagnostico_principal": "A09",
+    "diagnosticos_secundarios": [],
+    "evolucion": [
+      {
+        "fecha": "2026-10-21T13:00:00",
+        "nota": "Mejoria clinica parcial",
+        "signos": {
+          "fc": 74,
+          "pa_sistolica": 121,
+          "pa_diastolica": 91,
+          "temp": 37.3,
+          "spo2": 99
+        }
+      },
+      {
+        "fecha": "2026-10-22T13:00:00",
+        "nota": "Afebril, continua hospitalizado",
+        "signos": {
+          "fc": 97,
+          "pa_sistolica": 147,
+          "pa_diastolica": 62,
+          "temp": 38.2,
+          "spo2": 97
+        }
+      },
+      {
+        "fecha": "2026-10-23T13:00:00",
+        "nota": "Afebril, continua hospitalizado",
+        "signos": {
+          "fc": 68,
+          "pa_sistolica": 133,
+          "pa_diastolica": 92,
+          "temp": 36.7,
+          "spo2": 94
+        }
+      }
+    ],
+    "prescripciones": [
+      {
+        "medicamento_id": "MED07",
+        "dosis": "dosis estandar IV",
+        "frecuencia": "cada 6 horas",
+        "dias": 10
+      },
+      {
+        "medicamento_id": "MED08",
+        "dosis": "dosis estandar IV",
+        "frecuencia": "cada 8 horas",
+        "dias": 7
+      }
+    ],
+    "eliminado": false
+  },
+  {
+    "_id": "H002",
+    "paciente_id": "P002",
+    "medico_id": "M003",
+    "cama_id": "C107",
+    "fecha_ingreso": "2026-08-07T17:00:00",
+    "fecha_egreso": "2026-08-14T17:00:00",
+    "estado": "egresada",
+    "diagnostico_principal": "J44",
+    "diagnosticos_secundarios": [
+      "I10"
+    ],
+    "evolucion": [
+      {
+        "fecha": "2026-08-10T01:00:00",
+        "nota": "Afebril, continua hospitalizado",
+        "signos": {
+          "fc": 62,
+          "pa_sistolica": 110,
+          "pa_diastolica": 60,
+          "temp": 37.2,
+          "spo2": 90
+        }
+      },
+      {
+        "fecha": "2026-08-12T09:00:00",
+        "nota": "Paciente estable, tolera via oral",
+        "signos": {
+          "fc": 101,
+          "pa_sistolica": 155,
+          "pa_diastolica": 72,
+          "temp": 36.7,
+          "spo2": 92
+        }
+      }
+    ],
+    "prescripciones": [
+      {
+        "medicamento_id": "MED11",
+        "dosis": "2 inhalaciones",
+        "frecuencia": "cada 24 horas",
+        "dias": 8
+      },
+      {
+        "medicamento_id": "MED12",
+        "dosis": "1 tableta",
+        "frecuencia": "cada 12 horas",
+        "dias": 3
+      }
+    ],
+    "eliminado": false
+  },
+  {
+    "_id": "H003",
+    "paciente_id": "P003",
+    "medico_id": "M006",
+    "cama_id": "C104",
+    "fecha_ingreso": "2026-10-05T14:00:00",
+    "fecha_egreso": "2026-10-14T14:00:00",
+    "estado": "egresada",
+    "diagnostico_principal": "E11",
+    "diagnosticos_secundarios": [
+      "I10"
+    ],
+    "evolucion": [
+      {
+        "fecha": "2026-10-07T20:00:00",
+        "nota": "Persisten sintomas, se ajusta manejo",
+        "signos": {
+          "fc": 100,
+          "pa_sistolica": 149,
+          "pa_diastolica": 92,
+          "temp": 36.8,
+          "spo2": 98
+        }
+      },
+      {
+        "fecha": "2026-10-10T02:00:00",
+        "nota": "Persisten sintomas, se ajusta manejo",
+        "signos": {
+          "fc": 70,
+          "pa_sistolica": 155,
+          "pa_diastolica": 97,
+          "temp": 36.9,
+          "spo2": 98
+        }
+      },
+      {
+        "fecha": "2026-10-12T08:00:00",
+        "nota": "Afebril, continua hospitalizado",
+        "signos": {
+          "fc": 71,
+          "pa_sistolica": 138,
+          "pa_diastolica": 72,
+          "temp": 37.0,
+          "spo2": 93
+        }
+      }
+    ],
+    "prescripciones": [
+      {
+        "medicamento_id": "MED03",
+        "dosis": "1 tableta",
+        "frecuencia": "cada 6 horas",
+        "dias": 4
+      },
+      {
+        "medicamento_id": "MED04",
+        "dosis": "10 UI",
+        "frecuencia": "cada 8 horas",
+        "dias": 8
+      }
+    ],
+    "eliminado": false
+  },
+  {
+    "_id": "H004",
+    "paciente_id": "P004",
+    "medico_id": "M004",
+    "cama_id": "C108",
+    "fecha_ingreso": "2026-08-01T14:00:00",
+    "fecha_egreso": "2026-08-08T14:00:00",
+    "estado": "egresada",
+    "diagnostico_principal": "N39",
+    "diagnosticos_secundarios": [
+      "E11"
+    ],
+    "evolucion": [
+      {
+        "fecha": "2026-08-03T08:00:00",
+        "nota": "Mejoria clinica parcial",
+        "signos": {
+          "fc": 90,
+          "pa_sistolica": 125,
+          "pa_diastolica": 67,
+          "temp": 37.3,
+          "spo2": 99
+        }
+      },
+      {
+        "fecha": "2026-08-05T02:00:00",
+        "nota": "Persisten sintomas, se ajusta manejo",
+        "signos": {
+          "fc": 71,
+          "pa_sistolica": 142,
+          "pa_diastolica": 93,
+          "temp": 36.6,
+          "spo2": 97
+        }
+      },
+      {
+        "fecha": "2026-08-06T20:00:00",
+        "nota": "Afebril, continua hospitalizado",
+        "signos": {
+          "fc": 100,
+          "pa_sistolica": 119,
+          "pa_diastolica": 64,
+          "temp": 37.5,
+          "spo2": 92
+        }
+      }
+    ],
+    "prescripciones": [
+      {
+        "medicamento_id": "MED09",
+        "dosis": "1 tableta",
+        "frecuencia": "cada 12 horas",
+        "dias": 5
+      },
+      {
+        "medicamento_id": "MED05",
+        "dosis": "dosis estandar IV",
+        "frecuencia": "cada 8 horas",
+        "dias": 3
+      }
+    ],
+    "eliminado": false
+  },
+  {
+    "_id": "H005",
+    "paciente_id": "P005",
+    "medico_id": "M002",
+    "cama_id": "C109",
+    "fecha_ingreso": "2026-09-01T08:00:00",
+    "fecha_egreso": "2026-09-06T08:00:00",
+    "estado": "egresada",
+    "diagnostico_principal": "K35",
+    "diagnosticos_secundarios": [],
+    "evolucion": [
+      {
+        "fecha": "2026-09-03T00:00:00",
+        "nota": "Persisten sintomas, se ajusta manejo",
+        "signos": {
+          "fc": 72,
+          "pa_sistolica": 147,
+          "pa_diastolica": 71,
+          "temp": 37.1,
+          "spo2": 98
+        }
+      },
+      {
+        "fecha": "2026-09-04T16:00:00",
+        "nota": "Afebril, continua hospitalizado",
+        "signos": {
+          "fc": 67,
+          "pa_sistolica": 129,
+          "pa_diastolica": 79,
+          "temp": 36.6,
+          "spo2": 94
+        }
+      }
+    ],
+    "prescripciones": [
+      {
+        "medicamento_id": "MED13",
+        "dosis": "dosis estandar IV",
+        "frecuencia": "cada 24 horas",
+        "dias": 10
+      },
+      {
+        "medicamento_id": "MED14",
+        "dosis": "dosis estandar IV",
+        "frecuencia": "cada 6 horas",
+        "dias": 9
+      },
+      {
+        "medicamento_id": "MED05",
+        "dosis": "dosis estandar IV",
+        "frecuencia": "cada 24 horas",
+        "dias": 10
+      }
+    ],
+    "eliminado": false
+  },
+  {
+    "_id": "H006",
+    "paciente_id": "P006",
+    "medico_id": "M003",
+    "cama_id": "C102",
+    "fecha_ingreso": "2026-10-16T13:00:00",
+    "fecha_egreso": "2026-10-23T13:00:00",
+    "estado": "egresada",
+    "diagnostico_principal": "J18",
+    "diagnosticos_secundarios": [
+      "J44"
+    ],
+    "evolucion": [
+      {
+        "fecha": "2026-10-17T22:36:00",
+        "nota": "Mejoria clinica parcial",
+        "signos": {
+          "fc": 68,
+          "pa_sistolica": 159,
+          "pa_diastolica": 73,
+          "temp": 36.7,
+          "spo2": 86
+        }
+      },
+      {
+        "fecha": "2026-10-19T08:12:00",
+        "nota": "Afebril, continua hospitalizado",
+        "signos": {
+          "fc": 103,
+          "pa_sistolica": 126,
+          "pa_diastolica": 86,
+          "temp": 37.5,
+          "spo2": 94
+        }
+      },
+      {
+        "fecha": "2026-10-20T17:48:00",
+        "nota": "Paciente estable, tolera via oral",
+        "signos": {
+          "fc": 84,
+          "pa_sistolica": 159,
+          "pa_diastolica": 70,
+          "temp": 37.0,
+          "spo2": 95
+        }
+      },
+      {
+        "fecha": "2026-10-22T03:24:00",
+        "nota": "Paciente estable, tolera via oral",
+        "signos": {
+          "fc": 101,
+          "pa_sistolica": 150,
+          "pa_diastolica": 77,
+          "temp": 37.5,
+          "spo2": 95
+        }
+      }
+    ],
+    "prescripciones": [
+      {
+        "medicamento_id": "MED05",
+        "dosis": "dosis estandar IV",
+        "frecuencia": "cada 24 horas",
+        "dias": 7
+      },
+      {
+        "medicamento_id": "MED06",
+        "dosis": "1 tableta",
+        "frecuencia": "cada 12 horas",
+        "dias": 4
+      }
+    ],
+    "eliminado": false
+  },
+  {
+    "_id": "H007",
+    "paciente_id": "P007",
+    "medico_id": "M003",
+    "cama_id": "C101",
+    "fecha_ingreso": "2026-09-06T07:00:00",
+    "fecha_egreso": "2026-09-09T07:00:00",
+    "estado": "egresada",
+    "diagnostico_principal": "I50",
+    "diagnosticos_secundarios": [
+      "I10"
+    ],
+    "evolucion": [
+      {
+        "fecha": "2026-09-07T01:00:00",
+        "nota": "Persisten sintomas, se ajusta manejo",
+        "signos": {
+          "fc": 103,
+          "pa_sistolica": 145,
+          "pa_diastolica": 66,
+          "temp": 37.4,
+          "spo2": 88
+        }
+      },
+      {
+        "fecha": "2026-09-07T19:00:00",
+        "nota": "Paciente estable, tolera via oral",
+        "signos": {
+          "fc": 80,
+          "pa_sistolica": 125,
+          "pa_diastolica": 70,
+          "temp": 36.8,
+          "spo2": 93
+        }
+      },
+      {
+        "fecha": "2026-09-08T13:00:00",
+        "nota": "Paciente estable, tolera via oral",
+        "signos": {
+          "fc": 88,
+          "pa_sistolica": 160,
+          "pa_diastolica": 76,
+          "temp": 37.1,
+          "spo2": 92
+        }
+      }
+    ],
+    "prescripciones": [
+      {
+        "medicamento_id": "MED10",
+        "dosis": "dosis estandar IV",
+        "frecuencia": "cada 8 horas",
+        "dias": 4
+      },
+      {
+        "medicamento_id": "MED01",
+        "dosis": "1 tableta",
+        "frecuencia": "cada 12 horas",
+        "dias": 3
+      }
+    ],
+    "eliminado": false
+  },
+  {
+    "_id": "H008",
+    "paciente_id": "P008",
+    "medico_id": "M006",
+    "cama_id": "C106",
+    "fecha_ingreso": "2026-08-18T15:00:00",
+    "fecha_egreso": "2026-08-21T15:00:00",
+    "estado": "egresada",
+    "diagnostico_principal": "I10",
+    "diagnosticos_secundarios": [],
+    "evolucion": [
+      {
+        "fecha": "2026-08-19T09:00:00",
+        "nota": "Afebril, continua hospitalizado",
+        "signos": {
+          "fc": 100,
+          "pa_sistolica": 145,
+          "pa_diastolica": 99,
+          "temp": 36.2,
+          "spo2": 98
+        }
+      },
+      {
+        "fecha": "2026-08-20T03:00:00",
+        "nota": "Mejoria clinica parcial",
+        "signos": {
+          "fc": 100,
+          "pa_sistolica": 118,
+          "pa_diastolica": 98,
+          "temp": 37.3,
+          "spo2": 93
+        }
+      },
+      {
+        "fecha": "2026-08-20T21:00:00",
+        "nota": "Mejoria clinica parcial",
+        "signos": {
+          "fc": 94,
+          "pa_sistolica": 148,
+          "pa_diastolica": 76,
+          "temp": 37.1,
+          "spo2": 97
+        }
+      }
+    ],
+    "prescripciones": [
+      {
+        "medicamento_id": "MED01",
+        "dosis": "1 tableta",
+        "frecuencia": "cada 8 horas",
+        "dias": 9
+      },
+      {
+        "medicamento_id": "MED02",
+        "dosis": "1 tableta",
+        "frecuencia": "cada 8 horas",
+        "dias": 7
+      }
+    ],
+    "eliminado": false
+  },
+  {
+    "_id": "H009",
+    "paciente_id": "P009",
+    "medico_id": "M006",
+    "cama_id": "C107",
+    "fecha_ingreso": "2026-09-04T10:00:00",
+    "fecha_egreso": "2026-09-11T10:00:00",
+    "estado": "egresada",
+    "diagnostico_principal": "A09",
+    "diagnosticos_secundarios": [],
+    "evolucion": [
+      {
+        "fecha": "2026-09-06T04:00:00",
+        "nota": "Paciente estable, tolera via oral",
+        "signos": {
+          "fc": 96,
+          "pa_sistolica": 126,
+          "pa_diastolica": 72,
+          "temp": 37.5,
+          "spo2": 93
+        }
+      },
+      {
+        "fecha": "2026-09-07T22:00:00",
+        "nota": "Persisten sintomas, se ajusta manejo",
+        "signos": {
+          "fc": 101,
+          "pa_sistolica": 112,
+          "pa_diastolica": 67,
+          "temp": 36.2,
+          "spo2": 97
+        }
+      },
+      {
+        "fecha": "2026-09-09T16:00:00",
+        "nota": "Mejoria clinica parcial",
+        "signos": {
+          "fc": 63,
+          "pa_sistolica": 132,
+          "pa_diastolica": 97,
+          "temp": 36.4,
+          "spo2": 98
+        }
+      }
+    ],
+    "prescripciones": [
+      {
+        "medicamento_id": "MED07",
+        "dosis": "dosis estandar IV",
+        "frecuencia": "cada 6 horas",
+        "dias": 9
+      },
+      {
+        "medicamento_id": "MED08",
+        "dosis": "dosis estandar IV",
+        "frecuencia": "cada 12 horas",
+        "dias": 9
+      }
+    ],
+    "eliminado": false
+  },
+  {
+    "_id": "H010",
+    "paciente_id": "P010",
+    "medico_id": "M001",
+    "cama_id": "C101",
+    "fecha_ingreso": "2026-08-06T14:00:00",
+    "fecha_egreso": "2026-08-11T14:00:00",
+    "estado": "egresada",
+    "diagnostico_principal": "J44",
+    "diagnosticos_secundarios": [
+      "I10"
+    ],
+    "evolucion": [
+      {
+        "fecha": "2026-08-07T14:00:00",
+        "nota": "Afebril, continua hospitalizado",
+        "signos": {
+          "fc": 78,
+          "pa_sistolica": 155,
+          "pa_diastolica": 69,
+          "temp": 36.7,
+          "spo2": 86
+        }
+      },
+      {
+        "fecha": "2026-08-08T14:00:00",
+        "nota": "Mejoria clinica parcial",
+        "signos": {
+          "fc": 96,
+          "pa_sistolica": 135,
+          "pa_diastolica": 86,
+          "temp": 36.8,
+          "spo2": 97
+        }
+      },
+      {
+        "fecha": "2026-08-09T14:00:00",
+        "nota": "Persisten sintomas, se ajusta manejo",
+        "signos": {
+          "fc": 102,
+          "pa_sistolica": 142,
+          "pa_diastolica": 65,
+          "temp": 38.2,
+          "spo2": 92
+        }
+      },
+      {
+        "fecha": "2026-08-10T14:00:00",
+        "nota": "Mejoria clinica parcial",
+        "signos": {
+          "fc": 83,
+          "pa_sistolica": 145,
+          "pa_diastolica": 93,
+          "temp": 38.0,
+          "spo2": 97
+        }
+      }
+    ],
+    "prescripciones": [
+      {
+        "medicamento_id": "MED11",
+        "dosis": "2 inhalaciones",
+        "frecuencia": "cada 8 horas",
+        "dias": 3
+      },
+      {
+        "medicamento_id": "MED12",
+        "dosis": "1 tableta",
+        "frecuencia": "cada 12 horas",
+        "dias": 10
+      }
+    ],
+    "eliminado": false
+  },
+  {
+    "_id": "H011",
+    "paciente_id": "P011",
+    "medico_id": "M006",
+    "cama_id": "C101",
+    "fecha_ingreso": "2026-10-30T04:00:00",
+    "fecha_egreso": null,
+    "estado": "activa",
+    "diagnostico_principal": "E11",
+    "diagnosticos_secundarios": [
+      "I10"
+    ],
+    "evolucion": [
+      {
+        "fecha": "2026-11-01T05:20:00",
+        "nota": "Afebril, continua hospitalizado",
+        "signos": {
+          "fc": 107,
+          "pa_sistolica": 128,
+          "pa_diastolica": 74,
+          "temp": 37.5,
+          "spo2": 96
+        }
+      },
+      {
+        "fecha": "2026-11-03T06:40:00",
+        "nota": "Mejoria clinica parcial",
+        "signos": {
+          "fc": 74,
+          "pa_sistolica": 128,
+          "pa_diastolica": 82,
+          "temp": 37.2,
+          "spo2": 99
+        }
+      }
+    ],
+    "prescripciones": [
+      {
+        "medicamento_id": "MED03",
+        "dosis": "1 tableta",
+        "frecuencia": "cada 6 horas",
+        "dias": 7
+      },
+      {
+        "medicamento_id": "MED04",
+        "dosis": "10 UI",
+        "frecuencia": "cada 12 horas",
+        "dias": 5
+      }
+    ],
+    "eliminado": false
+  },
+  {
+    "_id": "H012",
+    "paciente_id": "P012",
+    "medico_id": "M005",
+    "cama_id": "C102",
+    "fecha_ingreso": "2026-11-03T05:00:00",
+    "fecha_egreso": null,
+    "estado": "activa",
+    "diagnostico_principal": "N39",
+    "diagnosticos_secundarios": [
+      "E11"
+    ],
+    "evolucion": [
+      {
+        "fecha": "2026-11-03T22:00:00",
+        "nota": "Mejoria clinica parcial",
+        "signos": {
+          "fc": 95,
+          "pa_sistolica": 149,
+          "pa_diastolica": 86,
+          "temp": 38.1,
+          "spo2": 94
+        }
+      },
+      {
+        "fecha": "2026-11-04T15:00:00",
+        "nota": "Paciente estable, tolera via oral",
+        "signos": {
+          "fc": 81,
+          "pa_sistolica": 128,
+          "pa_diastolica": 94,
+          "temp": 37.9,
+          "spo2": 94
+        }
+      }
+    ],
+    "prescripciones": [
+      {
+        "medicamento_id": "MED09",
+        "dosis": "1 tableta",
+        "frecuencia": "cada 8 horas",
+        "dias": 3
+      },
+      {
+        "medicamento_id": "MED05",
+        "dosis": "dosis estandar IV",
+        "frecuencia": "cada 12 horas",
+        "dias": 7
+      }
+    ],
+    "eliminado": false
+  },
+  {
+    "_id": "H013",
+    "paciente_id": "P013",
+    "medico_id": "M005",
+    "cama_id": "C103",
+    "fecha_ingreso": "2026-11-01T05:00:00",
+    "fecha_egreso": null,
+    "estado": "activa",
+    "diagnostico_principal": "K35",
+    "diagnosticos_secundarios": [],
+    "evolucion": [
+      {
+        "fecha": "2026-11-02T00:48:00",
+        "nota": "Persisten sintomas, se ajusta manejo",
+        "signos": {
+          "fc": 94,
+          "pa_sistolica": 111,
+          "pa_diastolica": 65,
+          "temp": 36.5,
+          "spo2": 98
+        }
+      },
+      {
+        "fecha": "2026-11-02T20:36:00",
+        "nota": "Mejoria clinica parcial",
+        "signos": {
+          "fc": 97,
+          "pa_sistolica": 121,
+          "pa_diastolica": 79,
+          "temp": 36.2,
+          "spo2": 95
+        }
+      },
+      {
+        "fecha": "2026-11-03T16:24:00",
+        "nota": "Persisten sintomas, se ajusta manejo",
+        "signos": {
+          "fc": 80,
+          "pa_sistolica": 123,
+          "pa_diastolica": 94,
+          "temp": 36.8,
+          "spo2": 94
+        }
+      },
+      {
+        "fecha": "2026-11-04T12:12:00",
+        "nota": "Afebril, continua hospitalizado",
+        "signos": {
+          "fc": 74,
+          "pa_sistolica": 152,
+          "pa_diastolica": 100,
+          "temp": 36.1,
+          "spo2": 99
+        }
+      }
+    ],
+    "prescripciones": [
+      {
+        "medicamento_id": "MED13",
+        "dosis": "dosis estandar IV",
+        "frecuencia": "cada 6 horas",
+        "dias": 8
+      },
+      {
+        "medicamento_id": "MED14",
+        "dosis": "dosis estandar IV",
+        "frecuencia": "cada 12 horas",
+        "dias": 3
+      },
+      {
+        "medicamento_id": "MED05",
+        "dosis": "dosis estandar IV",
+        "frecuencia": "cada 12 horas",
+        "dias": 8
+      }
+    ],
+    "eliminado": false
+  },
+  {
+    "_id": "H014",
+    "paciente_id": "P014",
+    "medico_id": "M003",
+    "cama_id": "C104",
+    "fecha_ingreso": "2026-11-03T08:00:00",
+    "fecha_egreso": null,
+    "estado": "activa",
+    "diagnostico_principal": "J18",
+    "diagnosticos_secundarios": [
+      "J44"
+    ],
+    "evolucion": [
+      {
+        "fecha": "2026-11-04T00:00:00",
+        "nota": "Paciente estable, tolera via oral",
+        "signos": {
+          "fc": 85,
+          "pa_sistolica": 109,
+          "pa_diastolica": 83,
+          "temp": 36.9,
+          "spo2": 90
+        }
+      },
+      {
+        "fecha": "2026-11-04T16:00:00",
+        "nota": "Persisten sintomas, se ajusta manejo",
+        "signos": {
+          "fc": 100,
+          "pa_sistolica": 144,
+          "pa_diastolica": 75,
+          "temp": 36.4,
+          "spo2": 97
+        }
+      }
+    ],
+    "prescripciones": [
+      {
+        "medicamento_id": "MED05",
+        "dosis": "dosis estandar IV",
+        "frecuencia": "cada 6 horas",
+        "dias": 4
+      },
+      {
+        "medicamento_id": "MED06",
+        "dosis": "1 tableta",
+        "frecuencia": "cada 8 horas",
+        "dias": 9
+      }
+    ],
+    "eliminado": false
+  },
+  {
+    "_id": "H015",
+    "paciente_id": "P001",
+    "medico_id": "M003",
+    "cama_id": "C105",
+    "fecha_ingreso": "2026-10-30T08:00:00",
+    "fecha_egreso": null,
+    "estado": "activa",
+    "diagnostico_principal": "I50",
+    "diagnosticos_secundarios": [
+      "I10"
+    ],
+    "evolucion": [
+      {
+        "fecha": "2026-10-31T20:00:00",
+        "nota": "Afebril, continua hospitalizado",
+        "signos": {
+          "fc": 93,
+          "pa_sistolica": 112,
+          "pa_diastolica": 95,
+          "temp": 37.4,
+          "spo2": 88
+        }
+      },
+      {
+        "fecha": "2026-11-02T08:00:00",
+        "nota": "Afebril, continua hospitalizado",
+        "signos": {
+          "fc": 99,
+          "pa_sistolica": 127,
+          "pa_diastolica": 65,
+          "temp": 36.3,
+          "spo2": 93
+        }
+      },
+      {
+        "fecha": "2026-11-03T20:00:00",
+        "nota": "Afebril, continua hospitalizado",
+        "signos": {
+          "fc": 111,
+          "pa_sistolica": 124,
+          "pa_diastolica": 76,
+          "temp": 38.0,
+          "spo2": 95
+        }
+      }
+    ],
+    "prescripciones": [
+      {
+        "medicamento_id": "MED10",
+        "dosis": "dosis estandar IV",
+        "frecuencia": "cada 12 horas",
+        "dias": 8
+      },
+      {
+        "medicamento_id": "MED01",
+        "dosis": "1 tableta",
+        "frecuencia": "cada 6 horas",
+        "dias": 8
+      }
+    ],
+    "eliminado": false
+  },
+  {
+    "_id": "H016",
+    "paciente_id": "P002",
+    "medico_id": "M003",
+    "cama_id": "C106",
+    "fecha_ingreso": "2026-11-01T06:00:00",
+    "fecha_egreso": null,
+    "estado": "activa",
+    "diagnostico_principal": "I10",
+    "diagnosticos_secundarios": [],
+    "evolucion": [
+      {
+        "fecha": "2026-11-02T14:40:00",
+        "nota": "Persisten sintomas, se ajusta manejo",
+        "signos": {
+          "fc": 91,
+          "pa_sistolica": 119,
+          "pa_diastolica": 82,
+          "temp": 38.0,
+          "spo2": 97
+        }
+      },
+      {
+        "fecha": "2026-11-03T23:20:00",
+        "nota": "Afebril, continua hospitalizado",
+        "signos": {
+          "fc": 99,
+          "pa_sistolica": 129,
+          "pa_diastolica": 73,
+          "temp": 36.5,
+          "spo2": 94
+        }
+      }
+    ],
+    "prescripciones": [
+      {
+        "medicamento_id": "MED01",
+        "dosis": "1 tableta",
+        "frecuencia": "cada 6 horas",
+        "dias": 7
+      },
+      {
+        "medicamento_id": "MED02",
+        "dosis": "1 tableta",
+        "frecuencia": "cada 24 horas",
+        "dias": 4
+      }
+    ],
+    "eliminado": false
+  }
+]

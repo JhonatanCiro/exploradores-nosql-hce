@@ -1,0 +1,62 @@
+[
+  {
+    "_id": "C101",
+    "servicio": "Medicina interna",
+    "piso": 1,
+    "estado": "ocupada"
+  },
+  {
+    "_id": "C102",
+    "servicio": "Medicina interna",
+    "piso": 1,
+    "estado": "ocupada"
+  },
+  {
+    "_id": "C103",
+    "servicio": "Medicina interna",
+    "piso": 1,
+    "estado": "ocupada"
+  },
+  {
+    "_id": "C104",
+    "servicio": "Medicina interna",
+    "piso": 1,
+    "estado": "ocupada"
+  },
+  {
+    "_id": "C105",
+    "servicio": "Medicina interna",
+    "piso": 1,
+    "estado": "ocupada"
+  },
+  {
+    "_id": "C106",
+    "servicio": "Medicina interna",
+    "piso": 1,
+    "estado": "ocupada"
+  },
+  {
+    "_id": "C107",
+    "servicio": "Cirugia",
+    "piso": 2,
+    "estado": "libre"
+  },
+  {
+    "_id": "C108",
+    "servicio": "Cirugia",
+    "piso": 2,
+    "estado": "libre"
+  },
+  {
+    "_id": "C109",
+    "servicio": "UCI intermedia",
+    "piso": 2,
+    "estado": "libre"
+  },
+  {
+    "_id": "C110",
+    "servicio": "UCI intermedia",
+    "piso": 2,
+    "estado": "libre"
+  }
+]
